@@ -25,8 +25,7 @@ def play(arr)
 end
 
 def exit
-    puts "Goodbye"
-    return
+    return "Goodbye"
 end
 
 
