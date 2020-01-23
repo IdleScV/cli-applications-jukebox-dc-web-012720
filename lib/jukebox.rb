@@ -5,3 +5,7 @@ def help
     puts "- play : lets you choose a song to play"
     puts "- exit : exits this program"
 end
+
+def list(arr)
+    arr.each_with_index {|x, index| puts (index + 1).to_s + ". " + x}
+end
