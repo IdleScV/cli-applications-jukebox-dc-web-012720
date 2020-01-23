@@ -29,5 +29,6 @@ def exit_jukebox
     return
 end
 
-
+def run(arr)
+  
   
