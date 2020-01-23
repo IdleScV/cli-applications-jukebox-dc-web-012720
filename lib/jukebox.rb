@@ -34,6 +34,8 @@ def run(arr)
     puts "Please enter a command:"
     input = gets.chomp
   end
-  intro
+  input = intro
+  switch
+    case
 
   
