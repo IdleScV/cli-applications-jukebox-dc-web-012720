@@ -34,8 +34,21 @@ def run(arr)
     puts "Please enter a command:"
     input = gets.chomp
   end
+  
   input = intro
-  switch
-    case
+  case input
+    when "help"
+      help
+      run(arr)
+    when "list"
+      list(arr)
+      run(arr)
+    when "play"
+      play(arr)
+      run(arr)
+    when "exit"
+      exit
+  end
+end
 
   
