@@ -15,11 +15,11 @@ def play(arr)
     input = gets.strip
     
     if (1..arr.length).include? input.to_i
-        puts arr[(input.to_i - 1)]
+        puts "Playing " + arr[(input.to_i - 1)]
     elsif arr.include? input
-        puts input
+        puts "Playing " + input
     else 
-        puts 
+        puts "Invalid input, please try again"
     end
 
 end
