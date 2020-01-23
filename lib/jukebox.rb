@@ -30,5 +30,10 @@ def exit_jukebox
 end
 
 def run(arr)
-  
+  def intro
+    puts "Please enter a command:"
+    input = gets.chomp
+  end
+  intro
+
   
