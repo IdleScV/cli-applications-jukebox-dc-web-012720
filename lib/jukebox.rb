@@ -11,6 +11,8 @@ def list(arr)
 end
 
 def play(arr)
+    puts "Enter a song or its ID number"
+    input = gets.chomp
     
     if (1..arr.length).include? input.to_i
         puts arr[(input.to_i - 1)]
