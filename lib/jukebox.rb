@@ -25,7 +25,8 @@ def play(arr)
 end
 
 def exit_jukebox
-    return "Goodbye"
+    puts "Goodbye"
+    return
 end
 
 
