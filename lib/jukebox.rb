@@ -28,3 +28,6 @@ def exit
     puts "Goodbye"
     return
 end
+
+def run(arr)
+  
