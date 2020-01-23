@@ -33,7 +33,7 @@ def exit
     return
 end
       
-def run(intro)
+def command(input)
     songs = [
         "Phoenix - 1901",
         "Tokyo Police Club - Wait Up",
@@ -45,7 +45,6 @@ def run(intro)
         "Harry Chapin - Cats in the Cradle",
         "Amos Lee - Keep It Loose, Keep It Tight"
       ]
-    
     case input
     when "help"
         help
@@ -63,5 +62,5 @@ def run(intro)
     end
 end
 
-
+command(intro);
 
