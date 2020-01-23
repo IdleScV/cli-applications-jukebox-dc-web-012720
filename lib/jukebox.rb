@@ -47,7 +47,7 @@ def run(arr)
       play(arr)
       run(arr)
     when "exit"
-      exit
+      exit_jukebox
   end
 end
 
