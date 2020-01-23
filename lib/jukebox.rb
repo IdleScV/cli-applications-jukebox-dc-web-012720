@@ -9,3 +9,13 @@ end
 def list(arr)
     arr.each_with_index {|x, index| puts (index + 1).to_s + ". " + x}
 end
+
+def play(arr)
+    
+    if (1..arr.length).include? input.to_i
+        puts arr[(input.to_i - 1)]
+    elsif arr.include? input
+        puts input
+    end
+
+end
